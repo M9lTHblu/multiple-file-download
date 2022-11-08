@@ -1,0 +1,40 @@
+body {
+  padding: 3rem;
+  background-color: #181414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.row {
+  display: flex;
+  gap: 1rem;
+}
+img {
+  width: 400px;
+  height: 600px;
+}
+
+.btn {
+  text-decoration: none;
+  min-height: 45px;
+  padding: 0 30px;
+  background-color: orange;
+  border: 1px solid #f68121;
+  border-radius: 100px;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.download {
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+        .link {
+            padding: 0 30px;
+            min-height: 45px;
+            color: #fff;
+            border: 2px solid #f68121;
+            background-color: #f68121;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 100px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Roboto;
+            font-size: 14px;
+        }
+        .link:hover {
+            background-color: #fff;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class='row'>
+    <div class='row download'>
+    <img src='/src/assets/hello.jpg' alt=''>
+        <a class='btn' href='/src/assets/hello.pdf' download='hello.pdf'>Загрузить файл</a>
+    </div>
+    <div class='row download'>
+    <img src='/src/assets/bye.jpg' alt=''>
+        <a class='btn' href='/src/assets/bye.pdf' download='bye.pdf'>Загрузить файл</a>
+    </div>
+</div>
+<button class='btn' id="download" type='button'>Загрузить все файлы</button>
+<script src='src/js/main.js' type='module'></script>
+</body>
+</html>
